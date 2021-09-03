@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif; /*Website font*/
+}
+
+
+.navbar { 
+    border: 2px solid blue; /*Menu border*/
+    padding: 0px; /*Menu link space*/
+    text-align: right; /*Moves the links to the right*/
+
+}
+
+.navbar a {
+    color: black; /*Link colors*/
+    text-decoration: none; /*No link underline*/
+    margin-right: 10px; /*Space inbetween the links*/
+    
+}
+
+.navbar img {
+    display: flex; /*Makes the cookie flexible*/
+    justify-content: space-between; /*Separates the cookie and the links*/
+    border: none; /*No border*/
+}
+
+.content-container {
+    display: flex; /*Places the font next to the image*/
+    width: 70%; /*Changes text width*/
+}
+
+.text-container {
+    text-align: left; /*Moves the title to the left*/
+    margin-left: 20px; /*Gives some space between the image & text*/
+}
+
+.button {
+    background-color: blue; /*Button Color*/
+    border: none; /*No border*/
+    color: white; /*Link text color*/
+    padding: 15px 30px; /*Padding*/
+    text-align: center; /*Centers the text*/
+    display: inline-block; /*Give sa spece betwween the button & text*/
+    font-size: 15px; /*Font size*/
+  }
